@@ -6,4 +6,74 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="sample_synopsis">In a city in antropomorphic animals, a rookie bunny cop and cynical con artist fox must work together to uncover a…</string>
+    <string name="synopsis_avenger">
+        Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</string>
+    <string name="synopsis_aquaman">
+        Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, lelaki setengah manusia Orm, setengah saudara Atlantis dan pewaris sejati takhta.
+    </string>
+    <string name="synopsis_bohemian">
+        Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercurys yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.
+    </string>
+    <string name="synopsis_bumblebee">
+        Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.
+    </string>
+    <string name="synopsis_deadpool">
+        Fred Savage yang diculik dipaksa untuk menahan Deadpool PG-13 membawakan Deadpool 2 sebagai kisah Putri Pengantin yang penuh keajaiban, keajaiban, dan nol Fs.
+    </string>
+    <string name="synopsis_glass">
+        Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.
+    </string>
+    <string name="synopsis_hunterkiller">
+        Kapten Glass dari USS Arkansas menemukan bahwa kudeta sedang terjadi di Rusia, jadi ia dan krunya bergabung dengan kelompok elit yang bekerja di lapangan untuk mencegah perang.
+    </string>
+    <string name="synopsis_themule">
+        Earl Stone, seorang pria berusia 80-an, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA yang sibuk mengisi daya.
+    </string>
+    <string name="synopsis_venom">
+        Earl Stone, seorang pria berusia 80-an, bangkrut, sendirian, dan menghadapi penyitaan bisnisnya ketika ia ditawari pekerjaan yang hanya mengharuskannya mengemudi. Cukup mudah, tetapi, tanpa diketahui Earl, dia baru saja mendaftar sebagai kurir narkoba untuk kartel Meksiko. Dia melakukannya dengan baik sehingga muatannya meningkat secara eksponensial, dan Earl menabrak radar agen DEA yang sibuk mengisi daya.    </string>
+    <string name="synopsis_arrow">
+Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur.    </string>
+    <string name="synopsis_doom_patrol">
+Anggota Patroli Doom masing-masing mengalami kecelakaan mengerikan yang memberi mereka kemampuan manusia super - tetapi juga membuat mereka terluka dan cacat. Trauma dan tertindas, tim menemukan tujuan melalui Ketua, yang menyatukan mereka untuk menyelidiki fenomena aneh yang ada - dan untuk melindungi Bumi dari apa yang mereka temukan.    </string>
+    <string name="synopsis_dragon_ball">
+Dahulu kala di pegunungan, seorang master pertempuran yang dikenal sebagai Gohan menemukan seorang bocah aneh yang ia beri nama Goku. Gohan membesarkannya dan melatih Goku dalam seni bela diri sampai dia mati. Bocah muda dan sangat kuat itu sendirian, tetapi mudah dikelola. Kemudian suatu hari, Goku bertemu dengan seorang gadis remaja bernama Bulma, yang pencariannya untuk bola naga membawanya ke rumah Goku. Bersama-sama, mereka berangkat untuk menemukan ketujuh bola naga dalam sebuah petualangan.    </string>
+    <string name="synopsis_family_guy">
+Seri animasi animasi Freakin Sweet yang sakit, terpelintir, tidak benar, menampilkan petualangan keluarga Griffin yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang brilian tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan merupakan gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki hasrat untuk film). Anggota terakhir keluarga itu adalah Brian - anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie, sementara menghirup Martinis dan memilah-milah masalah hidupnya sendiri.    </string>
+    <string name="synopsis_flash">
+Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat.Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi itu tidak akan lama sebelum dunia mengetahui apa Barry Allen telah menjadi The Flash.    </string>
+    <string name="synopsis_gotham">
+Sebelum ada Batman, ada GOTHAM. Semua orang tahu nama Komisaris Gordon. Dia adalah salah satu musuh terbesar dunia kejahatan, seorang pria yang reputasinya identik dengan hukum dan ketertiban. Tapi apa yang diketahui tentang kisah Gordons dan kenaikannya dari detektif pemula ke Komisaris Polisi? Apa yang diperlukan untuk menavigasi berbagai lapisan korupsi yang diam-diam memerintah Kota Gotham, tempat bertelurnya penjahat paling ikonik di dunia? Dan keadaan apa yang menciptakan mereka - persona yang lebih besar dari kehidupan yang akan menjadi Catwoman, The Penguin, The Riddler, Two-Face dan The Joker    </string>
+    <string name="synopsis_hanna">
+Drama yang menegangkan dan menjadi dewasa ini mengikuti perjalanan seorang gadis muda yang luar biasa ketika ia menghindari pengejaran tanpa henti dari seorang agen CIA yang tidak ada buku dan mencoba untuk menggali kebenaran di balik siapa dirinya. Berdasarkan film Joe Wright 2011.    </string>
+    <string name="synopsis_naruto">
+Naruto Shippuuden adalah kelanjutan dari serial TV animasi asli Naruto. Kisah ini berkisah tentang Uzumaki Naruto yang lebih tua dan sedikit lebih matang dan upayanya untuk menyelamatkan temannya Uchiha Sasuke dari cengkeraman Shinobi seperti ular, Orochimaru. Setelah 2 setengah tahun, Naruto akhirnya kembali ke desanya Konoha, dan mulai mewujudkan ambisinya, meskipun itu tidak akan mudah, karena Ia telah mengumpulkan beberapa musuh (lebih berbahaya), seperti organisasi shinobi. ; Akatsuki.    </string>
+    <string name="synopsis_ncis">
+Dari pembunuhan dan spionase hingga terorisme dan kapal selam curian, tim agen khusus menyelidiki kejahatan apa pun yang memiliki sedikit bukti yang terhubung dengan personel Angkatan Laut dan Korps Marinir, terlepas dari pangkat atau posisi.    </string>
+    <string name="synopsis_riverdale">
+Berada di masa kini, seri ini menawarkan pandangan yang berani dan subversif pada Archie, Betty, Veronica dan teman-teman mereka, menjelajahi surreality kehidupan kota kecil, kegelapan dan keanehan yang menggelegak di bawah fasad sehat Riverdale.    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="genre_avenger">Petualangan | Aksi | Fantasi</string>
+    <string name="genre_aquaman">Petualangan | Aksi | Fantasi</string>
+    <string name="genre_bohemian">Drama | Musik</string>
+    <string name="genre_bumblebee">Aksi | Petualangan | Fiksi ilmiah</string>
+    <string name="genre_creed">Aksi | Petualangan | Fiksi ilmiah</string>
+    <string name="genre_deadpool">Aksi | Komedi</string>
+    <string name="genre_glass">Thriller | Drama | Fiksi ilmiah</string>
+    <string name="genre_hunterkiller">Thiriller | Aksi</string>
+    <string name="genre_themule">Thriller | Kejahatan | Drama</string>
+    <string name="genre_venom">Fiksi Ilmiah | Tindakan</string>
+
+    <string name="genre_arrow">Petualangan | Aksi | Fantasi</string>
+    <string name="genre_doom_patrol">Petualangan | Aksi | Fantasi</string>
+    <string name="genre_dragon_ball">Drama | Musik</string>
+    <string name="genre_family_guy">Aksi | Petualangan | Fiksi ilmiah</string>
+    <string name="genre_flash">Aksi | Petualangan | Fiksi ilmiah</string>
+    <string name="genre_gotham">Aksi | Komedi</string>
+    <string name="genre_hanna">Thriller | Drama | Fiksi ilmiah</string>
+    <string name="genre_naruto">Thiriller | Aksi</string>
+    <string name="genre_ncis">Thriller | Kejahatan | Drama</string>
+    <string name="genre_riverdale">Fiksi Ilmiah | Tindakan</string>
 </resources>

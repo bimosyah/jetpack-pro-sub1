@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/movie_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_view_poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/movie_poster_a_start_is_born"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="The Star is Born"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/image_view_poster"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_view_movie_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_movie_title"
+            android:layout_marginTop="8dp"
+            android:text="Adventure | Action | Fantasy"
+            android:textSize="11sp"
+            app:layout_constraintStart_toStartOf="@+id/text_view_movie_title"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_title" />
+
+        <TextView
+            android:id="@+id/text_view_movie_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_movie_genre"
+            android:layout_marginTop="4dp"
+            android:text="82"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/text_view_movie_genre"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_genre" />
+
+        <TextView
+            android:id="@+id/text_view_movie_score_max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:text=" /100"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/text_view_movie_score"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_genre" />
+
+
+        <TextView
+            android:id="@+id/text_view_movie_lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/text_view_movie_score_max"
+            android:background="@drawable/shape_rectangle"
+            android:text="EN"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="7sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/text_view_movie_score_max"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_genre" />
+
+        <TextView
+            android:id="@+id/text_view_movie_synopsis"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_movie_score"
+            android:layout_marginTop="8dp"
+            android:text="@string/sample_synopsis"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="@+id/text_view_movie_score"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_lang" />
+
+        <ImageView
+            android:id="@+id/image_view_icon_watching_number"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/text_view_movie_synopsis"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/ic_watch"
+            app:layout_constraintStart_toStartOf="@+id/text_view_movie_synopsis"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_synopsis" />
+
+        <TextView
+            android:id="@+id/text_view_movie_watching_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_movie_synopsis"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@id/image_view_icon_watching_number"
+            android:text="+300"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/image_view_icon_watching_number"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_synopsis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_movie_synopsis"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="11dp"
+            android:layout_toRightOf="@id/text_view_movie_watching_count"
+            android:text="Watch this moview"
+            android:textSize="11sp"
+            app:layout_constraintStart_toEndOf="@+id/text_view_movie_watching_count"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_movie_synopsis" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
