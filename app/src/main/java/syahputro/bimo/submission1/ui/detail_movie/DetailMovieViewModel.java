@@ -12,8 +12,8 @@ public class DetailMovieViewModel extends ViewModel {
     private MovieEntity mMovie;
     private int id;
 
-    public MovieEntity getMovie(Activity activity){
-        MovieEntity movieEntity = dataDummy.generateDummyMovie(activity).get(id);
+    public MovieEntity getMovie(){
+        MovieEntity movieEntity = dataDummy.generateDummyMovie().get(id);
         mMovie = movieEntity;
         return mMovie;
     }

@@ -54,7 +54,7 @@ public class MovieFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         if (getActivity() != null) {
             viewModel = ViewModelProviders.of(this).get(MovieViewModel.class);
-            movies = viewModel.getMovies(getActivity());
+            movies = viewModel.getMovies();
 
             adapter = new MovieAdapter(getActivity());
             adapter.setListMovies(movies);

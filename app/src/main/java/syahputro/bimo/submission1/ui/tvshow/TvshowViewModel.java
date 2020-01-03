@@ -12,7 +12,7 @@ import syahputro.bimo.submission1.utils.DataDummy;
 public class TvshowViewModel extends ViewModel {
     DataDummy dataDummy = new DataDummy();
 
-    public List<TvshowEntity> getTvshow(Activity activity) {
-        return dataDummy.generateDummyTvshow(activity);
+    public List<TvshowEntity> getTvshow() {
+        return dataDummy.generateDummyTvshow();
     }
 }

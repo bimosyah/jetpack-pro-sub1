@@ -42,7 +42,7 @@ public class DetailMovieActivity extends AppCompatActivity {
         if (extras != null) {
             int id = extras.getInt(ID_MOVIE);
             viewModel.setId(id);
-            movie = viewModel.getMovie(this);
+            movie = viewModel.getMovie();
         }
 
         if (viewModel != null) {

@@ -44,7 +44,7 @@ public class DetailTvshowActivity extends AppCompatActivity {
         if (extras != null) {
             int id = extras.getInt(ID_MOVIE);
             viewModel.setId(id);
-            tvshow = viewModel.geTvshow(this);
+            tvshow = viewModel.geTvshow();
         }
 
         if (viewModel != null) {

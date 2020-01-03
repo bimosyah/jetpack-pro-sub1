@@ -58,7 +58,7 @@ public class TvshowFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         if (getActivity() != null) {
             viewModel = ViewModelProviders.of(this).get(TvshowViewModel.class);
-            tvshow = viewModel.getTvshow(getActivity());
+            tvshow = viewModel.getTvshow();
 
             adapter = new TvshowAdapter(getActivity());
             adapter.setListTv(tvshow);

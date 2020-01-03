@@ -10,9 +10,8 @@ import syahputro.bimo.submission1.data.MovieEntity;
 import syahputro.bimo.submission1.utils.DataDummy;
 
 public class MovieViewModel extends ViewModel {
-    DataDummy dataDummy = new DataDummy();
 
-    public List<MovieEntity> getMovies(Activity activity) {
-        return dataDummy.generateDummyMovie(activity);
+    public List<MovieEntity> getMovies() {
+        return DataDummy.generateDummyMovie();
     }
 }

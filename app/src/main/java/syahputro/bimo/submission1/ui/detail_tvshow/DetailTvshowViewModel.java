@@ -13,8 +13,8 @@ public class DetailTvshowViewModel extends ViewModel {
     private TvshowEntity mTvshow;
     private int id;
 
-    public TvshowEntity geTvshow(Activity activity){
-        TvshowEntity tvshowEntity = dataDummy.generateDummyTvshow(activity).get(id);
+    public TvshowEntity geTvshow(){
+        TvshowEntity tvshowEntity = dataDummy.generateDummyTvshow().get(id);
         mTvshow = tvshowEntity;
         return mTvshow;
     }
