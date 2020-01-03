@@ -1,4 +1,7 @@
 package syahputro.bimo.submission1.ui.detail_movie;
 
-public class DetailMovieViewModel {
+import androidx.lifecycle.ViewModel;
+
+public class DetailMovieViewModel extends ViewModel {
+
 }

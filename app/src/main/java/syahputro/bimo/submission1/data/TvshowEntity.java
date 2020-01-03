@@ -3,14 +3,14 @@ package syahputro.bimo.submission1.data;
 public class TvshowEntity {
     private String TvTitle;
     private int TvImage;
-    private String TvImageBackdrop;
+    private String genre;
     private String TvRating;
     private String TvSynopsis;
 
-    public TvshowEntity(String tvTitle, int tvImage, String tvImageBackdrop, String tvRating, String tvSynopsis) {
+    public TvshowEntity(String tvTitle, int tvImage, String genre, String tvRating, String tvSynopsis) {
         TvTitle = tvTitle;
         TvImage = tvImage;
-        TvImageBackdrop = tvImageBackdrop;
+        genre = genre;
         TvRating = tvRating;
         TvSynopsis = tvSynopsis;
     }
@@ -31,12 +31,12 @@ public class TvshowEntity {
         TvImage = tvImage;
     }
 
-    public String getTvImageBackdrop() {
-        return TvImageBackdrop;
+    public String getgenre() {
+        return genre;
     }
 
-    public void setTvImageBackdrop(String tvImageBackdrop) {
-        TvImageBackdrop = tvImageBackdrop;
+    public void setgenre(String genre) {
+        genre = genre;
     }
 
     public String getTvRating() {

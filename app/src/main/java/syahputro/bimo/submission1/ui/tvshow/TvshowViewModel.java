@@ -1,4 +1,4 @@
-package syahputro.bimo.submission1.ui.movie;
+package syahputro.bimo.submission1.ui.tvshow;
 
 import android.app.Activity;
 
@@ -6,13 +6,13 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 
-import syahputro.bimo.submission1.data.MovieEntity;
+import syahputro.bimo.submission1.data.TvshowEntity;
 import syahputro.bimo.submission1.utils.DataDummy;
 
-public class MovieViewModel extends ViewModel {
+public class TvshowViewModel extends ViewModel {
     DataDummy dataDummy = new DataDummy();
 
-    public List<MovieEntity> getMovies(Activity activity) {
-        return dataDummy.generateDummyMovie(activity);
+    public List<TvshowEntity> getTvshow(Activity activity) {
+        return dataDummy.generateDummyTvshow(activity);
     }
 }

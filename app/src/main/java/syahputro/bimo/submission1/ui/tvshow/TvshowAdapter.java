@@ -1,4 +1,4 @@
-package syahputro.bimo.submission1.ui.movie;
+package syahputro.bimo.submission1.ui.tvshow;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -17,32 +17,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 import syahputro.bimo.submission1.R;
-import syahputro.bimo.submission1.data.MovieEntity;
+import syahputro.bimo.submission1.data.TvshowEntity;
 
-public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
+public class TvshowAdapter extends RecyclerView.Adapter<TvshowAdapter.TvshowViewHolder> {
     private final Activity activity;
-    private List<MovieEntity> mMovie = new ArrayList<>();
+    private List<TvshowEntity> mTvshow = new ArrayList<>();
 
-    MovieAdapter(Activity activity) {
+    TvshowAdapter(Activity activity) {
         this.activity = activity;
     }
 
-    void setListMovies(List<MovieEntity> listMovie) {
+    void setListTv(List<TvshowEntity> listMovie) {
         if (listMovie == null) return;
-        this.mMovie.clear();
-        this.mMovie.addAll(listMovie);
+        this.mTvshow.clear();
+        this.mTvshow.addAll(listMovie);
     }
 
-    private List<MovieEntity> getListMovie() {
-        return mMovie;
+    private List<TvshowEntity> getListMovie() {
+        return mTvshow;
     }
 
     @NonNull
     @Override
-    public MovieAdapter.MovieViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public TvshowAdapter.TvshowViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view;
         view = LayoutInflater.from(activity).inflate(R.layout.item_list, parent, false);
-        final MovieAdapter.MovieViewHolder viewHolder = new MovieAdapter.MovieViewHolder(view);
+        final TvshowAdapter.TvshowViewHolder viewHolder = new TvshowAdapter.TvshowViewHolder(view);
 
 //        viewHolder.movie_card.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -54,21 +54,21 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MovieAdapter.MovieViewHolder holder, int position) {
-        holder.movieTitle.setText(getListMovie().get(position).getMovieTitle());
-        Glide.with(activity).load(getListMovie().get(position).getMovieImage()).into(holder.movieImage);
-        holder.movieGenre.setText(getListMovie().get(position).getGenre());
-        holder.movieRating.setText(getListMovie().get(position).getMovieRating());
-        holder.movieSynopsis.setText(getListMovie().get(position).getMovieSynopsis().substring(0,60)+"...");
+    public void onBindViewHolder(@NonNull TvshowAdapter.TvshowViewHolder holder, int position) {
+        holder.movieTitle.setText(getListMovie().get(position).getTvTitle());
+        Glide.with(activity).load(getListMovie().get(position).getTvImage()).into(holder.movieImage);
+        holder.movieGenre.setText(getListMovie().get(position).getgenre());
+        holder.movieRating.setText(getListMovie().get(position).getTvRating());
+        holder.movieSynopsis.setText(getListMovie().get(position).getTvSynopsis().substring(0,60)+"...");
 
     }
 
     @Override
     public int getItemCount() {
-        return mMovie.size();
+        return mTvshow.size();
     }
 
-    public class MovieViewHolder extends RecyclerView.ViewHolder {
+    public class TvshowViewHolder extends RecyclerView.ViewHolder {
         private TextView movieTitle;
         private ImageView movieImage;
         private TextView movieGenre;
@@ -76,7 +76,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         private TextView movieSynopsis;
         private ConstraintLayout movie_card;
 
-        public MovieViewHolder(View view) {
+        public TvshowViewHolder(View view) {
             super(view);
             movie_card = view.findViewById(R.id.movie_card);
             movieTitle = view.findViewById(R.id.text_view_movie_title);
