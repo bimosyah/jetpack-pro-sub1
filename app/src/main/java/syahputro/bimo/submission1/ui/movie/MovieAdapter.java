@@ -1,6 +1,7 @@
 package syahputro.bimo.submission1.ui.movie;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,7 @@ import java.util.List;
 
 import syahputro.bimo.submission1.R;
 import syahputro.bimo.submission1.data.MovieEntity;
+import syahputro.bimo.submission1.ui.detail_movie.DetailMovieActivity;
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHolder> {
     private final Activity activity;
@@ -43,23 +45,26 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         View view;
         view = LayoutInflater.from(activity).inflate(R.layout.item_list, parent, false);
         final MovieAdapter.MovieViewHolder viewHolder = new MovieAdapter.MovieViewHolder(view);
-
-//        viewHolder.movie_card.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                listener.onItemClick(mData.get(viewHolder.getAdapterPosition()),viewHolder.getAdapterPosition());
-//            }
-//        });
         return viewHolder;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MovieAdapter.MovieViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull MovieAdapter.MovieViewHolder holder, final int position) {
         holder.movieTitle.setText(getListMovie().get(position).getMovieTitle());
         Glide.with(activity).load(getListMovie().get(position).getMovieImage()).into(holder.movieImage);
         holder.movieGenre.setText(getListMovie().get(position).getGenre());
         holder.movieRating.setText(getListMovie().get(position).getMovieRating());
         holder.movieSynopsis.setText(getListMovie().get(position).getMovieSynopsis().substring(0,60)+"...");
+
+        holder.movie_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, DetailMovieActivity.class);
+                intent.putExtra(DetailMovieActivity.ID_MOVIE,position);
+                activity.startActivity(intent);
+            }
+        });
+
 
     }
 
