@@ -10,7 +10,7 @@ public class TvshowEntity {
     public TvshowEntity(String tvTitle, int tvImage, String genre, String tvRating, String tvSynopsis) {
         TvTitle = tvTitle;
         TvImage = tvImage;
-        genre = genre;
+        this.genre = genre;
         TvRating = tvRating;
         TvSynopsis = tvSynopsis;
     }
