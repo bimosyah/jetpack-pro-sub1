@@ -15,13 +15,13 @@ import syahputro.bimo.submission1.data.TvshowEntity;
 import syahputro.bimo.submission1.ui.detail_movie.DetailMovieViewModel;
 
 public class DetailTvshowActivity extends AppCompatActivity {
-    ImageView imageViewBanner;
-    ImageView imageViewDetail;
-    TextView textViewTitle, textViewGenre, textViewScore, textViewSynopsis;
+    private ImageView imageViewBanner;
+    private ImageView imageViewDetail;
+    private TextView textViewTitle, textViewGenre, textViewScore, textViewSynopsis;
 
     public static final String ID_MOVIE = "id_movie";
-    DetailTvshowViewModel viewModel;
-    TvshowEntity tvshow;
+    private DetailTvshowViewModel viewModel;
+    private TvshowEntity tvshow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

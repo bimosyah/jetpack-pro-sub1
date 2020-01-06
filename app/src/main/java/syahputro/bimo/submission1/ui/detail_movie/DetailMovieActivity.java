@@ -13,13 +13,13 @@ import syahputro.bimo.submission1.R;
 import syahputro.bimo.submission1.data.MovieEntity;
 
 public class DetailMovieActivity extends AppCompatActivity {
-    ImageView imageViewBanner;
-    ImageView imageViewDetail;
-    TextView textViewTitle, textViewGenre, textViewScore, textViewSynopsis;
+    private ImageView imageViewBanner;
+    private ImageView imageViewDetail;
+    private TextView textViewTitle, textViewGenre, textViewScore, textViewSynopsis;
 
     public static final String ID_MOVIE = "id_movie";
-    DetailMovieViewModel viewModel;
-    MovieEntity movie;
+    private DetailMovieViewModel viewModel;
+    private MovieEntity movie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
